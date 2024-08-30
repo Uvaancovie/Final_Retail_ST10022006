@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿@model Final_Retail.Models.Order
 
 <h2>Create Order</h2>
@@ -19,3 +20,26 @@
         <input type="submit" value="Create" class="btn btn-primary" />
     </div>
 </form>
+=======
+﻿@model Final_Retail.Models.Order
+
+<h2>Create Order</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="ProductId" class="control-label"></label>
+        <input asp-for="ProductId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Quantity" class="control-label"></label>
+        <input asp-for="Quantity" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="OrderDate" class="control-label"></label>
+        <input asp-for="OrderDate" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+>>>>>>> 1c0e17787d4e6a4bebdd1ef0692a2fa41b7378a6

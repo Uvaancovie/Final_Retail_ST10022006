@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿@model Final_Retail.Models.Order
 
 <h2>Order Details</h2>
@@ -29,3 +30,36 @@
 <div>
     <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>
+=======
+﻿@model Final_Retail.Models.Order
+
+<h2>Order Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ProductId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProductId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OrderDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+>>>>>>> 1c0e17787d4e6a4bebdd1ef0692a2fa41b7378a6

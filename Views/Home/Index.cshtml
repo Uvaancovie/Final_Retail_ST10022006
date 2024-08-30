@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿@{
     ViewData["Title"] = "Welcome to Final Retail";
 }
@@ -36,3 +37,43 @@
         <a class="btn btn-success btn-lg" href="@Url.Action("Contact", "Home")">Contact Us</a>
     </div>
 </div>
+=======
+﻿@{
+    ViewData["Title"] = "Welcome to Final Retail";
+}
+
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Final Retail!</h1>
+    <p class="lead">Your one-stop solution for all your retail and file management needs. We provide a seamless experience to manage products, customer profiles, and file uploads with the power of Azure.</p>
+    <hr class="my-4">
+    <p>Explore our services and get started with managing your business efficiently.</p>
+    <a class="btn btn-primary btn-lg" href="@Url.Action("Index", "FileUploads")" role="button">Manage File Uploads</a>
+    <a class="btn btn-secondary btn-lg" href="@Url.Action("Index", "Products")" role="button">Manage Products</a>
+</div>
+
+<div class="row text-center">
+    <div class="col-lg-4">
+        <h3>File Uploads</h3>
+        <p>Upload, manage, and organize your documents and images with our easy-to-use file management system.</p>
+        <a class="btn btn-primary" href="@Url.Action("Index", "FileUploads")">View File Uploads</a>
+    </div>
+    <div class="col-lg-4">
+        <h3>Products</h3>
+        <p>Manage your product catalog with ease. Add, edit, and delete products as needed to keep your inventory up-to-date.</p>
+        <a class="btn btn-primary" href="@Url.Action("Index", "Products")">View Products</a>
+    </div>
+    <div class="col-lg-4">
+        <h3>Customer Profiles</h3>
+        <p>Keep track of your customers and their preferences. Manage customer profiles with our robust system.</p>
+        <a class="btn btn-primary" href="@Url.Action("Index", "CustomerProfiles")">View Customer Profiles</a>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col text-center">
+        <h2>Why Choose Us?</h2>
+        <p>At Final Retail, we offer a comprehensive solution to manage your business efficiently. With our Azure-powered platform, you can handle everything from file management to customer and product data, all in one place.</p>
+        <a class="btn btn-success btn-lg" href="@Url.Action("Contact", "Home")">Contact Us</a>
+    </div>
+</div>
+>>>>>>> 1c0e17787d4e6a4bebdd1ef0692a2fa41b7378a6
