@@ -40,3 +40,4 @@ C:\Users\uvaan\source\repos\Final_Retail\obj\Release\net8.0\refint\Final_Retail.
 C:\Users\uvaan\source\repos\Final_Retail\obj\Release\net8.0\Final_Retail.pdb
 C:\Users\uvaan\source\repos\Final_Retail\obj\Release\net8.0\Final_Retail.genruntimeconfig.cache
 C:\Users\uvaan\source\repos\Final_Retail\obj\Release\net8.0\ref\Final_Retail.dll
+C:\Users\uvaan\source\repos\Final_Retail\obj\Release\net8.0\Final_Retail.sourcelink.json
